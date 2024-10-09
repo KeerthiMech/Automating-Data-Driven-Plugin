@@ -6,7 +6,7 @@ public class Script
 {
     public void Execute(#Classname #Objectname)
     {
-        **//Logic to get designs present in a module **
+        //Logic to get designs present in a module
         // to verify if the design is present or not
         if (//Logic to detetmine if design is present)                     
         {
