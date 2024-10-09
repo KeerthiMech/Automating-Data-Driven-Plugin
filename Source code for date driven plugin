@@ -1,0 +1,40 @@
+using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.Windows.Forms;
+public class Script
+{
+    public void Execute(#Classname #Objectname)
+    {
+        //Logic to get designs present in a module
+        // to verify if the design is present or not
+        if (//Logic to detetmine if design is present)                     
+        {
+        //To get pole list
+        //Get each element present in a pole
+            foreach (//Objects in design)                
+            {
+         //To get value required or need to be changed.
+                String att = //object.GetValue("//Attribute", //Value);   
+         //Business logic to change the element according to business requirement
+                if (//Design is present)
+                {
+                    if (//Criteria 1)
+                    {
+                        object.SetValue("//Attribute 1", "//Value 1");
+                    }
+                    else if (//Criteria 2)
+                    {
+                        object.SetValue("//Attribute 2", "//Value 2");
+                    }
+                    else //Default criteria
+                    {
+                        object.SetValue("// Default Attribute", "//Default Value");
+                    }
+          //telling the design software to reload design to update the new changes.
+                    //Object//.ForceReloadDEP();                 
+                }
+            }
+        }
+    }
+}
