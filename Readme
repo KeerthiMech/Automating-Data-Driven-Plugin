@@ -1,0 +1,6 @@
+This code can be used to create a automated data-driven plugin.
+Here is how the program works,
+        1.Code searches if the specified key is present or not.
+        2.If present, gets the value of the key using "getValue" method.
+        3.According to the business requirement it changes the value using "setStringMethod" since the output is string.
+
